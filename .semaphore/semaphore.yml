@@ -10,8 +10,8 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - cd movies
-            - python manage.py test
+            - cd ./movies
+            - python ./manage.py test
   - name: 'Block #2'
     task:
       jobs:
